@@ -20,7 +20,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -32,7 +32,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -44,7 +44,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -56,7 +56,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -68,7 +68,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -92,7 +92,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -104,7 +104,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -116,7 +116,7 @@ Accessory.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new accessory', error);
 });
 
@@ -161,10 +161,10 @@ Accessory.findOne({
 
 // FINDBYPK - 1
 
-Accessory.findByPK(1)
-    .then(function(accessoryPK) {
-        console.log('FOUND ITEM', accessoryPK)
-    })
+// Accessory.findByPK(1)
+//     .then(function(accessoryPK) {
+//         console.log('FOUND ITEM', accessoryPK)
+//     })
 
 // UPDATE - 2
 

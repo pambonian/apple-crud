@@ -8,7 +8,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -20,7 +20,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -32,7 +32,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -44,7 +44,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -56,7 +56,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -68,7 +68,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -80,7 +80,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -92,7 +92,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -104,7 +104,7 @@ Item.create({
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -116,7 +116,7 @@ Item.create({
 .then(function(createdItem) {
     console.log('new product', createdItem.toJSON());
 })
-.catch(function(err) {
+.catch(function(error) {
     console.log('Error with adding new item', error);
 });
 
@@ -149,7 +149,7 @@ Item.findOne({
 
 Item.findOne({
     where: { tagLine: 'Mega power. Mini sized' }
-}).then(function (foundProduct) {
+}).then(function (foundItem) {
     console.log('FOUND PRODUCT LISTING', foundItem)
 });
 
@@ -161,10 +161,10 @@ Item.findOne({
 
 // FINDBYPK - 1
 
-Item.findByPK(1)
-    .then(function(itemPK) {
-        console.log('FOUND ITEM', itemPK)
-    })
+// Item.findByPK(1)
+//     .then(function(itemPK) {
+//         console.log('FOUND ITEM', itemPK)
+//     })
 
 // UPDATE - 2
 

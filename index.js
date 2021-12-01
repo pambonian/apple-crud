@@ -159,10 +159,10 @@ Product.findOne({
 
 // FINDBYPK - 1
 
-Product.findByPK(1)
-    .then(function(productPK) {
-        console.log('FOUND PRODUCT', productPK)
-    })
+// Product.findByPK(1)
+//     .then(function(productPK) {
+//         console.log('FOUND PRODUCT', productPK)
+//     })
 
 // UPDATE - 2
 
