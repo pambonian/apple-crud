@@ -3,7 +3,7 @@ const { Accessory } = require("./models");
 Accessory.create({
     homeKit: false,
     name: 'MagSafe Battery Pack',
-    price: 99.00
+    price: 99
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -15,7 +15,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'Incase Reform Sport Case for AirPods Pro',
-    price: 34.95
+    price: 34
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -27,7 +27,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'Apple Pencil (2nd generation',
-    price: 129.00
+    price: 129
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -39,7 +39,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'HomePod mini - White',
-    price: 99.00
+    price: 99
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -51,7 +51,7 @@ Accessory.create({
 Accessory.create({
     homeKit: true,
     name: 'Nanoleaf Essentials A19 Bulb',
-    price: 19.95
+    price: 19
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -63,7 +63,7 @@ Accessory.create({
 Accessory.create({
     homeKit: true,
     name: 'Nanoleaf Essentials 80" Lightstrip Starter Kit',
-    price: 49.95
+    price: 49
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -75,7 +75,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'Magic Keyboard for iPad Pro 12.9-inch (5th generation) - White',
-    price: 349.00
+    price: 349
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -87,7 +87,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'JOBY TelePod Mobile All-in-One Tripod for iPhone',
-    price: 59.95
+    price: 59
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -99,7 +99,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'HidrateSpark STEEL - 21 oz. (620ml) Chug + Bonus Straw Lid',
-    price: 69.95
+    price: 69
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -111,7 +111,7 @@ Accessory.create({
 Accessory.create({
     homeKit: false,
     name: 'MagSafe Duo Charger',
-    price: 129.00
+    price: 129
 })
 .then(function(createdProduct) {
     console.log('new product', createdProduct.toJSON());
@@ -148,7 +148,7 @@ Accessory.findOne({
 });
 
 Accessory.findOne({
-    where: { price: 49.95 }
+    where: { price: 49 }
 }).then(function (foundAccessory) {
     console.log('FOUND PRODUCT LISTING', foundAccessory)
 });
@@ -171,7 +171,7 @@ Accessory.findOne({
 Accessory.update({
     homeKit: false,
     name: 'Apple Pencil (2nd generation)',
-    price: 129.00
+    price: 129
 },{
     where: { id: 3 } 
 })
@@ -186,7 +186,7 @@ Accessory.update({
 Accessory.update({
     homeKit: true,
     name: 'MagSafe Battery Pack',
-    price: 99.00
+    price: 99
 },{
     where: { id: 1 } 
 })
